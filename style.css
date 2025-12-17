@@ -74,8 +74,8 @@ nav .nav-link:hover {
 /* Who I am Section Styling */
 #whoiam {
     background-color: #f9f9f9;  
-    padding-left: 10%;
-    padding-right: 10%;/* Light grey background */
+    
+    /* Light grey background */
 }
 
 #whoiam h1 {
@@ -83,9 +83,12 @@ nav .nav-link:hover {
     font-size: 2.5rem;  /* Larger font size for the heading */
     
 }
-
+#whoiam .row{
+    padding-left: 5%;
+    padding-right: 10%;
+}
 #whoiam .lead {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     color: #111111;  /* Grey color for the subheading */
     font-weight: bolder;
     padding-left: 10%;
@@ -97,6 +100,13 @@ nav .nav-link:hover {
     color: #544d4d;  /* Dark text for the paragraph */
     line-height: 1.6;
     margin-bottom: 20px;
+}
+#whoiam .highlight-text {
+    color: #007bff;  /* Purple color */
+    font-weight: bolder; /* Bold the highlighted text */
+    font-size: 1.2rem;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #whoiam p:last-child {
